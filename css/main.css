@@ -1,0 +1,36 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  margin: 2%; }
+
+body {
+  background-color: #FFEAC2; }
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: #91BF9D; } }
+  @media screen and (max-width: 400px) {
+    body {
+      background-color: #563E36;
+      color: #846B59; } }
+
+.fieldset {
+  color: #CC8D7A; }
+  @media screen and (max-width: 768px) {
+    .fieldset {
+      color: #4F665C; } }
+  @media screen and (max-width: 400px) {
+    .fieldset {
+      color: #846B59;
+      background-color: #563E36; } }
+
+@media screen and (max-width: 768px) {
+  .header {
+    color: #4F665C; } }
+
+@media screen and (max-width: 400px) {
+  .header {
+    color: #846B59;
+    background-color: #563E36; } }
+
+h2 {
+  color: #F0BB7F; }

@@ -4,14 +4,15 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Inlämning</title>
+      <title>Inlämning</title> 
+      <link rel="stylesheet" href="./css/main.css">
       <script src="./main.js" defer></script>
 </head>
 
 <body>
-    <h2 id=header>Budget Calculator</h2>
+    <h2 class="header" id=header>Budget Calculator</h2>
       <fieldset>
-            <legend>Insert Data Here</legend>
+            <legend class="fieldset">Insert Data Here</legend>
 
             <select class= "select">
                   <option value="choose" class="option">+/-</option>
@@ -24,17 +25,17 @@
             <button type="button" id="btnInsert">Add</button> 
       </fieldset>
 
-      <fieldset>
-            <legend>Balance</legend>
+      <fieldset class="fieldset">
+            <legend>Income</legend>
             <div id="lsOutput" class="lsOutput"></div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset">
             <legend>Expense</legend>
             <div id="lsInput" class="lsInput"></div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="fieldset">
             <legend>Remaining</legend>
             <div id="remaining"></div>
       </fieldset>

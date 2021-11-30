@@ -1,0 +1,33 @@
+@import "./media-query.scss";
+
+*{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 25px;
+      margin: 2%;
+}
+
+body{
+     background-color: $backgroundColor;
+@include tablet {
+      background-color: $darkBackground;}
+@include mobile{
+      background-color: $darkerBackground;
+      color:$darkerText;}
+}
+
+.fieldset{
+     color: $fieldsetColor;
+@include tablet{
+      color: $darkText;}
+@include mobile{
+      color: $darkerText;
+      background-color: $darkerBackground;}
+}
+
+.header{
+@include tablet{
+   color: $darkText;}
+@include mobile{
+   color: $darkerText;
+   background-color: $darkerBackground;}
+}
