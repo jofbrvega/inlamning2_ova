@@ -1,0 +1,23 @@
+{
+  "name": "inlamning2_ova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node-sass scss/main.scss css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofbrvega/inlamning2_ova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jofbrvega/inlamning2_ova/issues"
+  },
+  "homepage": "https://github.com/jofbrvega/inlamning2_ova#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
